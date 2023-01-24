@@ -1,34 +1,37 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
 }
 
 .calcOutline {
-    display: flex;
-    height: 75%;
-    align-items: center;
-    justify-content: center;
-    border: 5px;
-    border-style: dashed;
-    background-color: grey;
+  display: flex;
+  height: 75%;
+  align-items: center;
+  justify-content: center;
+  border: 5px;
+  border-style: dashed;
+  background-color: grey;
 }
 
 .calcNumber {
-    display: flex;
-   flex-direction: row;
-   border: 5px;
-   border-style: groove;
-   height: 100px;
-   background-color: white;
+  display: flex;
+  flex-direction: row;
+  border: 5px;
+  border-style: groove;
+  height: 100px;
+  background-color: white;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 50px;
 }
 button {
-    font-size: xx-large;
-    height: 100px;
-    width: 100px;
-    margin: 3px;
+  font-size: xx-large;
+  height: 100px;
+  width: 100px;
+  margin: 3px;
 }
-.calcBody{
-    padding: 15px;
+.calcBody {
+  padding: 15px;
 }
