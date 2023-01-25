@@ -12,25 +12,27 @@ body {
   justify-content: center;
   border: 5px;
   border-style: dashed;
-  background-color: grey;
+  background-color:rgb(47, 13, 161);
 }
 
 .calcNumber {
   display: flex;
   flex-direction: row;
   border: 5px;
-  border-style: groove;
   height: 100px;
   background-color: white;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 50px;
+ margin-bottom: 15px;
+
 }
 button {
   font-size: xx-large;
   height: 100px;
   width: 100px;
   margin: 3px;
+  border-radius: 5em;
 }
 .calcBody {
   padding: 15px;

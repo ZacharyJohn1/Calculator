@@ -94,10 +94,11 @@ let subtract = (event) => {
   calcNumber.innerHTML = display;
 };
 let equal = (event) => {
-  event.preventDefault();
-  display = [];
-  calcNumber.innerHTML = display;
-};
+    event.preventDefault();
+    let += eval(display.join(""));
+    calcNumber.innerHTML = display;
+  };
+  
 
 oneButton.addEventListener("click", click1);
 twoButton.addEventListener("click", click2);
